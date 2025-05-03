@@ -1,3 +1,7 @@
+//simple MIPS based processor without branch prediction,hazards prevention i will modify to much sophisticated model in the near future,
+//this is done as part to demonstrate my understanding of pipeline architecture and modelling it using verilog or system verilog
+
+
 module risc(input clk1, clk2);
 
   reg [31:0] PC, IF_ID_IR, IF_ID_NPC;
