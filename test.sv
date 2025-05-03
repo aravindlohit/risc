@@ -16,7 +16,7 @@ module test ();
     begin
       for(k=0;k<31;k++);
       dut.Reg[k]=k;
-      
+      //simple add program , more programs will be added in the future//
       dut.Mem[0]= 32'h2801000a;
       dut.Mem[1]= 32'h28020014;
       dut.Mem[2]= 32'h28030019;
